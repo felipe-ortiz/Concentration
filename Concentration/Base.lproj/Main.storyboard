@@ -192,11 +192,12 @@
                         <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="cHR-RR-AJ4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="10N-4Q-GRr"/>
+                            <constraint firstItem="ov3-hb-su7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="7r4-SB-1bY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ov3-hb-su7" secondAttribute="bottom" constant="16" id="8Te-Xz-9EV"/>
                             <constraint firstItem="96I-JM-oRK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="cHR-RR-AJ4" secondAttribute="bottom" constant="8" symbolic="YES" id="Des-Rx-yhE"/>
                             <constraint firstItem="ov3-hb-su7" firstAttribute="top" secondItem="96I-JM-oRK" secondAttribute="bottom" constant="8" symbolic="YES" id="Eqf-q1-IK4"/>
-                            <constraint firstItem="ov3-hb-su7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="KZ9-dk-T6Y"/>
                             <constraint firstItem="96I-JM-oRK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="QL0-0J-ojq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ov3-hb-su7" secondAttribute="trailing" constant="150" id="eCC-Pf-qNF"/>
                             <constraint firstItem="cHR-RR-AJ4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jBh-7m-Frr"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="96I-JM-oRK" secondAttribute="trailing" constant="71" id="nM3-Bc-fWk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cHR-RR-AJ4" secondAttribute="trailing" constant="16" id="tEC-A2-ZVW"/>

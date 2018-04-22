@@ -59,7 +59,7 @@ class ViewController: UIViewController {
    
    @IBAction func newGame() {
       game = Concentration(numberOfPairOfCards: (cardButtons.count + 1) / 2)
-         for index in cardButtons.indices {
+      for index in cardButtons.indices {
          let button = cardButtons[index]
          button.setTitle("", for: UIControlState.normal)
          button.backgroundColor = #colorLiteral(red: 1, green: 0, blue: 0.08517054468, alpha: 1)
