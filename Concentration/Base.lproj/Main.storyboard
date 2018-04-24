@@ -19,21 +19,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ov3-hb-su7">
-                                <rect key="frame" x="150" y="732" width="75" height="30"/>
-                                <color key="backgroundColor" red="0.92236986081744021" green="0.96235281229019165" blue="0.13091885337547327" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="New Game">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="newGame" destination="BYZ-38-t0r" eventType="touchUpInside" id="tAh-ch-cuh"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flips: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="96I-JM-oRK">
-                                <rect key="frame" x="70" y="676" width="234" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="cHR-RR-AJ4">
                                 <rect key="frame" x="16" y="44" width="343" height="312"/>
                                 <subviews>
@@ -187,20 +172,21 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Flips: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="96I-JM-oRK">
+                                <rect key="frame" x="125.66666666666666" y="730" width="123.66666666666666" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="cHR-RR-AJ4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="10N-4Q-GRr"/>
-                            <constraint firstItem="ov3-hb-su7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="7r4-SB-1bY"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ov3-hb-su7" secondAttribute="bottom" constant="16" id="8Te-Xz-9EV"/>
-                            <constraint firstItem="96I-JM-oRK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="cHR-RR-AJ4" secondAttribute="bottom" constant="8" symbolic="YES" id="Des-Rx-yhE"/>
-                            <constraint firstItem="ov3-hb-su7" firstAttribute="top" secondItem="96I-JM-oRK" secondAttribute="bottom" constant="8" symbolic="YES" id="Eqf-q1-IK4"/>
-                            <constraint firstItem="96I-JM-oRK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="QL0-0J-ojq"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ov3-hb-su7" secondAttribute="trailing" constant="150" id="eCC-Pf-qNF"/>
-                            <constraint firstItem="cHR-RR-AJ4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jBh-7m-Frr"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="96I-JM-oRK" secondAttribute="trailing" constant="71" id="nM3-Bc-fWk"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cHR-RR-AJ4" secondAttribute="trailing" constant="16" id="tEC-A2-ZVW"/>
+                            <constraint firstItem="96I-JM-oRK" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="3lh-Qh-rQx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="96I-JM-oRK" secondAttribute="bottom" id="9rA-R3-GaU"/>
+                            <constraint firstItem="96I-JM-oRK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="cHR-RR-AJ4" secondAttribute="bottom" constant="8" symbolic="YES" id="LQB-9K-m2a"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cHR-RR-AJ4" secondAttribute="trailing" constant="16" id="TtG-fP-fwx"/>
+                            <constraint firstItem="cHR-RR-AJ4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Vbt-fJ-VPW"/>
+                            <constraint firstItem="cHR-RR-AJ4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="fvQ-99-mzc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
